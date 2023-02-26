@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    background: linear-gradient(90deg, #07c792, #359d9e);
+}
+
+header .container {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul {
+
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f8f9f9;
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
